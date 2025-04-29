@@ -14,7 +14,6 @@ export const abbreviateText = (text, radius) => {
 
 // Get color based on node label
 export const getNodeColor = (node, selectedNode) => {
-  // console.log("getNodeColor:::", node);
   const nodeLabel = node.properties.description;
   switch (nodeLabel) {
     case "person":

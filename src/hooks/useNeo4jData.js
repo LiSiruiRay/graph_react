@@ -122,7 +122,6 @@ function useNeo4jData() {
   const fetchGraphData = (limit = 100) => {
     setIsLoading(true);
     // Create a driver instance
-    console.log("Neo4j URI:", process.env.REACT_APP_NEO4J_URI);
     const driver = neo4j.driver(
       process.env.REACT_APP_NEO4J_URI,
       neo4j.auth.basic(
