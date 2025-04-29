@@ -8,7 +8,7 @@ import useNeo4jData from "./hooks/useNeo4jData";
 function App() {
   const [displayMode, setDisplayMode] = useState("hover");
   const [selectedNode, setSelectedNode] = useState(null);
-  const [nodeLimit, setNodeLimit] = useState(100);
+  const [nodeLimit, setNodeLimit] = useState(1960);
   const [linkDistance, setLinkDistance] = useState(100);
   const [searchableProperties, setSearchableProperties] = useState([]);
 
